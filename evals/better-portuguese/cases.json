@@ -1,0 +1,212 @@
+{
+  "skill": "better-portuguese",
+  "purpose": "development",
+  "dataset": "real-world-v2",
+  "cases": [
+    {
+      "id": "pr-small-description",
+      "task": "Write a concise pull request description in Brazilian Portuguese from this diff. Use one summary paragraph followed by one bullet about the test.",
+      "sources": [
+        {
+          "label": "Small Git diff",
+          "path": "fixtures/codex-title-only-reasoning.diff",
+          "review": "reference"
+        }
+      ]
+    },
+    {
+      "id": "pr-small-slack-update",
+      "task": "Write a Brazilian Portuguese message for the engineering team's Slack channel explaining this small change and why it matters. Assume the readers know the codebase.",
+      "sources": [
+        {
+          "label": "Small Git diff",
+          "path": "fixtures/codex-analytics-notifications.diff",
+          "review": "reference"
+        }
+      ]
+    },
+    {
+      "id": "pr-medium-slack-update",
+      "task": "Write a Brazilian Portuguese message for the engineering team's Slack channel announcing this medium-sized change. Explain the behavior that changed, the practical effect, and the relevant test coverage.",
+      "sources": [
+        {
+          "label": "Medium Git diff",
+          "path": "fixtures/codex-background-side-cleanup.diff",
+          "review": "reference"
+        }
+      ]
+    },
+    {
+      "id": "video-telegram-kimi-k3",
+      "task": "Write a Telegram message with the summary of the video below based on its title and description:\n\nGuidelines:\n- The summary should be 1-2 lines long;\n- Write in pt-BR but do not translate foreign terms.\n- Do not include hashtags.\n- The video has already been posted, so avoid the future tense.\n- Do not assume time so you don't say outdated things.\n- Use the 1st tense as this is to be shared by the author, so it should feel personal.",
+      "sources": [
+        {
+          "label": "Published video title and description",
+          "path": "fixtures/kimi-k3-video-details.json"
+        }
+      ]
+    },
+    {
+      "id": "video-telegram-cursor",
+      "task": "Write a Telegram message with the summary of the video below based on its title and description:\n\nGuidelines:\n- The summary should be 1-2 lines long;\n- Write in pt-BR but do not translate foreign terms.\n- Do not include hashtags.\n- The video has already been posted, so avoid the future tense.\n- Do not assume time so you don't say outdated things.\n- Use the 1st tense as this is to be shared by the author, so it should feel personal.",
+      "sources": [
+        {
+          "label": "Published video title and description",
+          "path": "fixtures/cursor-video-details.json"
+        }
+      ]
+    },
+    {
+      "id": "landing-portfolio-hero",
+      "task": "Write a Brazilian Portuguese hero section for the Carteiras Quantitativas landing page. Return an eyebrow, headline, short paragraph, and CTA label.",
+      "sources": [
+        {
+          "label": "Feature brief",
+          "path": "fixtures/portfolio-feature-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "landing-trade-analysis-faq",
+      "task": "Write three questions and answers in Brazilian Portuguese for a landing-page FAQ about Análise de Trades.",
+      "sources": [
+        {
+          "label": "Feature brief",
+          "path": "fixtures/trade-analysis-feature-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "landing-quick-search-how-to",
+      "task": "Write a Brazilian Portuguese how-to section for the Busca Rápida landing page. Return a heading, a short introduction, and three numbered steps.",
+      "sources": [
+        {
+          "label": "Feature brief",
+          "path": "fixtures/quick-search-feature-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "landing-premium-trial-how-it-works",
+      "task": "Write a Brazilian Portuguese 'Como funciona' section for the QuantBrasil pricing page. Return a heading, three numbered steps, and one closing sentence.",
+      "sources": [
+        {
+          "label": "Pricing facts",
+          "path": "fixtures/premium-trial-facts.json"
+        }
+      ]
+    },
+    {
+      "id": "landing-radar-section",
+      "task": "Write a Brazilian Portuguese landing-page section about Radar de Backtests. Return a heading, one paragraph, and three bullets.",
+      "sources": [
+        {
+          "label": "Feature brief",
+          "path": "fixtures/radar-feature-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "product-quantbrasil-elevator-pitch",
+      "task": "Write a short elevator pitch in Brazilian Portuguese for QuantBrasil.",
+      "sources": [
+        {
+          "label": "Public product brief",
+          "path": "fixtures/quantbrasil-product-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "product-cli-key-empty-state",
+      "task": "Write the Brazilian Portuguese microcopy for this API-key empty state. Return a heading, one short help paragraph, a primary CTA label, and a secondary documentation-link label.",
+      "sources": [
+        {
+          "label": "UX notes",
+          "path": "fixtures/cli-api-key-empty-state.json"
+        }
+      ]
+    },
+    {
+      "id": "email-cli-public-beta",
+      "task": "Write an email for the QuantBrasil mailing list announcing the public beta of the CLI. Return a subject, preheader, body, one CTA, and a neutral signature. This is an announcement: show genuine but restrained excitement. Keep it under 220 words.",
+      "sources": [
+        {
+          "label": "Public CLI launch brief",
+          "path": "fixtures/quantbrasil-cli-launch-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "email-member-area-public-beta",
+      "task": "Write a Brazilian Portuguese announcement email to existing QuantBrasil readers about the public beta of the member area. Include a subject, preheader, body, and one CTA. Show genuine but restrained excitement. Preserve the four product pillars and the beta and feedback conditions. Do not invent pricing, scarcity, or urgency.",
+      "sources": [
+        {
+          "label": "Historical public launch brief",
+          "path": "fixtures/quantbrasil-member-area-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "telegram-code-night-recording",
+      "task": "Write a Brazilian Portuguese Telegram post as Rafael, in the first person, telling subscribers that the Code Night #001 recording and code are available. Summarize the task, why Playwright was needed, and the result. Use 100–150 words and placeholders for the video and code links. Invite readers to watch without turning the post into a tutorial.",
+      "sources": [
+        {
+          "label": "Published Code Night brief",
+          "path": "fixtures/code-night-001-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "frontend-title-subtitle-options",
+      "load": "short",
+      "task": "Propose three Brazilian Portuguese title-and-subtitle pairs for this essay: one analytical, one conversational, and one suitable for YouTube. Preserve the distinction between automating implementation and exercising human judgment over interfaces. Do not announce the death of frontend or manufacture certainty.",
+      "sources": [
+        {
+          "label": "Published essay thesis",
+          "path": "fixtures/frontend-essay-thesis.json"
+        }
+      ]
+    },
+    {
+      "id": "personal-site-homepage-copy",
+      "task": "Write Brazilian Portuguese copy for Rafael's personal-site homepage: one headline, a two-sentence subheading, and a short author bio of no more than 100 words. Represent the site's three areas without turning the bio into a résumé or inventing achievements.",
+      "sources": [
+        {
+          "label": "Public About-page brief",
+          "path": "fixtures/about-site-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "public-pr-engineering-slack",
+      "task": "Using only the author-written Summary, Validation, and Notes, write a Brazilian Portuguese Slack update for an engineering channel. State what changed, how it was validated, and the current persistence limitation. Keep it under 120 words and preserve route and protocol identifiers exactly.",
+      "sources": [
+        {
+          "label": "Public pull request description",
+          "path": "fixtures/canvascollab-pr-4.md"
+        }
+      ]
+    },
+    {
+      "id": "public-pr-ops-single-sentence",
+      "load": "short",
+      "task": "Write a single-sentence Brazilian Portuguese change note for an internal operations channel. Include the purpose of the change and the two validations performed. Preserve `OPENAI_API_KEY`, YT Central, and `git diff --check` exactly. Do not add a heading, bullets, deployment claim, or explanation of environment variables.",
+      "sources": [
+        {
+          "label": "Small public infrastructure pull request",
+          "path": "fixtures/vps-pr-4.md"
+        }
+      ]
+    },
+    {
+      "id": "litellm-technical-faq",
+      "task": "Write four concise Brazilian Portuguese FAQ entries covering what this setup does, how traffic is routed, how to return to the normal Claude configuration, and how to verify requests. Preserve commands, URLs, and environment-variable names exactly. Do not include prices or comparative quality claims.",
+      "sources": [
+        {
+          "label": "Public technical-guide brief",
+          "path": "fixtures/claude-litellm-brief.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "rafaelquintanilha-skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "eval:better-portuguese": "node evals/better-portuguese/harness.mjs run",
+    "eval:better-portuguese:batch": "node evals/better-portuguese/harness.mjs run --batch",
+    "eval:better-portuguese:baseline": "node evals/better-portuguese/baseline.mjs",
+    "eval:better-portuguese:judge": "node evals/better-portuguese/judge-run.mjs",
+    "eval:better-portuguese:models": "node evals/better-portuguese/harness.mjs models",
+    "eval:better-portuguese:tokens": "node evals/better-portuguese/harness.mjs tokens",
+    "eval:better-portuguese:validate-isolation": "node evals/better-portuguese/validate-cursor-isolation.mjs",
+    "eval:better-portuguese:validate-claude-isolation": "node evals/better-portuguese/validate-claude-isolation.mjs",
+    "eval:better-portuguese:try": "node evals/better-portuguese/harness.mjs try"
+  },
+  "devDependencies": {
+    "@cursor/sdk": "1.0.26",
+    "js-tiktoken": "1.0.21"
+  }
+}

@@ -1,0 +1,33 @@
+diff --git a/codex-rs/analytics/src/client.rs b/codex-rs/analytics/src/client.rs
+--- a/codex-rs/analytics/src/client.rs
++++ b/codex-rs/analytics/src/client.rs
+@@ -582,7 +582,8 @@ impl AnalyticsEventsClient {
+         });
+     }
+
+-    pub fn track_notification(&self, notification: ServerNotification) {
++    /// Records analytics-relevant notifications without cloning ignored variants.
++    pub fn track_notification(&self, notification: &ServerNotification) {
+         if !matches!(
+             notification,
+             ServerNotification::TurnStarted(_)
+@@ -595,7 +596,7 @@ impl AnalyticsEventsClient {
+         ) {
+             return;
+         }
+-        self.record_fact(AnalyticsFact::Notification(Box::new(notification)));
++        self.record_fact(AnalyticsFact::Notification(Box::new(notification.clone())));
+     }
+ }
+diff --git a/codex-rs/app-server/src/outgoing_message.rs b/codex-rs/app-server/src/outgoing_message.rs
+--- a/codex-rs/app-server/src/outgoing_message.rs
++++ b/codex-rs/app-server/src/outgoing_message.rs
+@@ -161,7 +161,7 @@ impl ThreadScopedOutgoingMessageSender {
+     pub(crate) async fn send_server_notification(&self, notification: ServerNotification) {
+         self.outgoing
+             .analytics_events_client
+-            .track_notification(notification.clone());
++            .track_notification(&notification);
+         if self.connection_ids.is_empty() {
+             return;
+         }

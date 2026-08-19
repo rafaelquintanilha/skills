@@ -1,0 +1,21 @@
+{
+  "product": "QuantBrasil",
+  "feature": "Busca Rápida de Ativos",
+  "availability": "All users",
+  "entry_point": {
+    "macOS": "Command+K",
+    "Windows": "Ctrl+K",
+    "scope": "Available from anywhere in the application"
+  },
+  "search_fields": [
+    "Ticker",
+    "Asset name",
+    "Sector"
+  ],
+  "result_behavior": [
+    "Recently visited assets are shown",
+    "Results are grouped by category, including stocks, futures, and crypto",
+    "Selecting a result opens that asset"
+  ],
+  "brand_usage_evidence": ["O QuantBrasil", "no QuantBrasil", "do QuantBrasil"]
+}

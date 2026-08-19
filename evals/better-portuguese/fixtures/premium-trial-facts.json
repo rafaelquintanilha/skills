@@ -1,0 +1,21 @@
+{
+  "product": "QuantBrasil Premium",
+  "included": [
+    "Backtests",
+    "WhatsApp signals",
+    "A CLI that can be used from an AI agent"
+  ],
+  "card": {
+    "trial": "7 days without charge",
+    "after_trial": "Automatic recurring charge",
+    "cancellation": "Can be cancelled at any time"
+  },
+  "pix": {
+    "trial": "Not applicable",
+    "payment": "Upfront",
+    "card_required": false,
+    "automatic_renewal": false
+  },
+  "primary_action": "Start the 7-day card trial",
+  "brand_usage_evidence": ["O QuantBrasil", "no QuantBrasil", "do QuantBrasil"]
+}

@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-07-29",
+  "purpose": "Run Claude Code with alternative models through OpenRouter, using LiteLLM as a proxy",
+  "routing": [
+    "Claude Code normally calls the Anthropic API",
+    "ANTHROPIC_BASE_URL redirects Claude Code to a compatible endpoint",
+    "LiteLLM receives requests in the Anthropic Messages format and sends them to OpenRouter",
+    "OpenRouter routes each request to the configured model"
+  ],
+  "start_commands": [
+    "source ~/litellm-env/bin/activate",
+    "export OPENROUTER_API_KEY=sk-or-v1-sua-chave-aqui",
+    "litellm --model openrouter/z-ai/glm-5 --port 4000",
+    "export ANTHROPIC_BASE_URL=http://localhost:4000",
+    "claude"
+  ],
+  "normal_configuration_commands": [
+    "unset ANTHROPIC_BASE_URL",
+    "claude"
+  ],
+  "verification": [
+    "Ask Claude Code a question and check that it responds",
+    "Open https://openrouter.ai/activity and verify the request, model, tokens, and cost",
+    "The /cost command in Claude Code displays $0.00 because the request did not use Anthropic billing"
+  ],
+  "constraints": [
+    "LiteLLM must remain running while Claude Code is in use",
+    "Do not include prices or comparative quality claims in the FAQ"
+  ]
+}

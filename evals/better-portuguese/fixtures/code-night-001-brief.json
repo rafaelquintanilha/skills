@@ -1,0 +1,33 @@
+{
+  "retrieved": "2026-07-29",
+  "series": "Code Night #001",
+  "author": "Rafael Quintanilha",
+  "sender": "Rafael Quintanilha, writing in the first person",
+  "task": "Create a script that updates the IBX-100 portfolio in the QuantBrasil database from the B3 website",
+  "why_automation_matters": "The IBX-100 is rebalanced every four months",
+  "source_constraints": [
+    "The B3 table is generated dynamically with JavaScript",
+    "The table is inside an iframe",
+    "The table is paginated and shows only 20 rows by default"
+  ],
+  "approach": [
+    "Use Python and Playwright to load and interact with the page",
+    "Open the iframe URL directly",
+    "Change the page-size selector to display all 100 assets",
+    "Parse the table and create or update the portfolio in PostgreSQL"
+  ],
+  "result": "The script opens the B3 page, finds all assets, and creates or updates the portfolio in a few seconds",
+  "availability": [
+    "The recording is available on YouTube",
+    "The complete code is available in a public GitHub gist"
+  ],
+  "brand_usage_evidence": [
+    "O QuantBrasil",
+    "conteúdo publicado no QuantBrasil",
+    "recursos do QuantBrasil"
+  ],
+  "series_usage_evidence": [
+    "o Code Night",
+    "episódios do Code Night"
+  ]
+}

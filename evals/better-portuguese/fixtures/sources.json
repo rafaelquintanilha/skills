@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "retrieved": "2026-07-29",
+  "sources": {
+    "codex-title-only-reasoning.diff": {
+      "origin": "https://github.com/openai/codex/commit/1e3c0042eb6613ef3843c45562c5618b1eced071",
+      "license": "Apache-2.0",
+      "note": "Reduced verbatim excerpt of the production change and its regression test."
+    },
+    "codex-analytics-notifications.diff": {
+      "origin": "https://github.com/openai/codex/commit/88d6c2b2b41b0790fa10c232f2a6be0e128cedd6",
+      "license": "Apache-2.0",
+      "note": "Verbatim excerpt of the production change."
+    },
+    "codex-background-side-cleanup.diff": {
+      "origin": "https://github.com/openai/codex/commit/d06c7ac055920c7cb140c25ebda3f3db20197b45",
+      "license": "Apache-2.0",
+      "note": "Reduced verbatim excerpt of a medium-sized production change and its regression test."
+    },
+    "codex-environment-native-file-paths.diff": {
+      "origin": "https://github.com/openai/codex/commit/7579a2b41353470efaef93c08b4a21068a366b7f",
+      "license": "Apache-2.0",
+      "note": "Verbatim diff of the production change and its test adjustment."
+    },
+    "kimi-k3-video-details.json": {
+      "origin": "https://www.youtube.com/watch?v=Ayw9qWJCv_A",
+      "license": "Copyright Rafael Quintanilha; metadata redistributed with permission.",
+      "note": "Published title and description, with incidental whitespace normalized, matching the fields supplied to the content-sharing automation."
+    },
+    "cursor-video-details.json": {
+      "origin": "https://www.youtube.com/watch?v=TIR9a3X-f5g",
+      "license": "Copyright Rafael Quintanilha; metadata redistributed with permission.",
+      "note": "Published title and description, with incidental whitespace normalized, identified from the user-provided automatic transcript."
+    },
+    "using-codex-task-inbox.md": {
+      "origin": "https://rafaelquintanilha.com/using-codex-as-a-task-inbox/",
+      "license": "Copyright Rafael Quintanilha; excerpt redistributed with permission.",
+      "note": "Selected verbatim excerpts from the published article."
+    },
+    "portfolio-feature-brief.json": {
+      "origin": "https://quantbrasil.com.br/releases/apresentando-as-carteiras-quantitativas/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from the public release; target-language marketing prose is intentionally omitted."
+    },
+    "trade-analysis-feature-brief.json": {
+      "origin": "https://quantbrasil.com.br/releases/analise-de-trades-e-busca-rapida-de-ativos/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from the public release; target-language marketing prose is intentionally omitted."
+    },
+    "quick-search-feature-brief.json": {
+      "origin": "https://quantbrasil.com.br/releases/analise-de-trades-e-busca-rapida-de-ativos/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from the public release; target-language marketing prose is intentionally omitted."
+    },
+    "premium-trial-facts.json": {
+      "origin": "https://quantbrasil.com.br/planos/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual snapshot of public plan behavior; target-language marketing prose is intentionally omitted."
+    },
+    "radar-feature-brief.json": {
+      "origin": "https://www.youtube.com/watch?v=F5K8rPtUTcU&t=1921s",
+      "license": "Copyright Rafael Quintanilha and QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from a public product demonstration."
+    },
+    "quantbrasil-product-brief.json": {
+      "origin": "https://quantbrasil.com.br/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from the public homepage. It records the site's established grammatical treatment of the brand without supplying target-language marketing prose."
+    },
+    "cli-api-key-empty-state.json": {
+      "origin": "User-provided automatic transcript",
+      "license": "Copyright Rafael Quintanilha and QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English UX notes derived from the demonstrated QuantBrasil CLI onboarding flow."
+    },
+    "trap-feature-brief.json": {
+      "origin": "https://quantbrasil.com.br/trap/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual brief derived from the public page; target-language FAQ prose is intentionally omitted."
+    },
+    "quantbrasil-feed-transcript.txt": {
+      "origin": "https://www.youtube.com/watch?v=F5K8rPtUTcU&t=520s",
+      "license": "Copyright Rafael Quintanilha and QuantBrasil; excerpt redistributed with permission.",
+      "note": "Lightly cleaned automatic transcript from 08:40 to 09:25."
+    },
+    "quantbrasil-cli-launch-brief.json": {
+      "origin": "https://quantbrasil.com.br/cli/",
+      "license": "Copyright QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual snapshot of the public launch page. It omits target-language announcement prose while retaining first-party brand-usage evidence."
+    },
+    "quantbrasil-member-area-brief.json": {
+      "origin": "https://rafaelquintanilha.com/quantbrasil/apresentando-a-area-de-membros-do-quantbrasil/",
+      "license": "Copyright Rafael Quintanilha and QuantBrasil; derived fixture redistributed with permission.",
+      "note": "English factual snapshot of the historical public-beta announcement; the published Portuguese is not used as an expected answer."
+    },
+    "code-night-001-brief.json": {
+      "origin": "https://codecapital.substack.com/p/code-night-001-web-scraping-b3-com",
+      "license": "Copyright Rafael Quintanilha; derived fixture redistributed with permission.",
+      "note": "English factual snapshot of the public article. Code blocks and target-language promotional prose are omitted."
+    },
+    "frontend-essay-thesis.json": {
+      "origin": "https://codecapital.substack.com/p/o-fim-do-frontend",
+      "license": "Copyright Rafael Quintanilha; derived fixture redistributed with permission.",
+      "note": "English thesis map derived from the public essay; its existing title and prose are not expected answers."
+    },
+    "about-site-brief.json": {
+      "origin": "https://rafaelquintanilha.com/about/",
+      "license": "Copyright Rafael Quintanilha; derived fixture redistributed with permission.",
+      "note": "English factual snapshot of the public About page, dated because career details may change."
+    },
+    "canvascollab-pr-4.md": {
+      "origin": "https://github.com/rafaelquintanilha/canvascollab/pull/4",
+      "license": "Copyright Rafael Quintanilha; excerpt redistributed with permission.",
+      "note": "Author-written title, Summary, Validation, and Notes only. Automated bot content is excluded."
+    },
+    "vps-pr-4.md": {
+      "origin": "https://github.com/rafaelquintanilha/vps/pull/4",
+      "license": "Copyright Rafael Quintanilha; excerpt redistributed with permission.",
+      "note": "Author-written title, Summary, and Validation only. Pull-request state is not treated as a deployment claim."
+    },
+    "claude-litellm-brief.json": {
+      "origin": "https://gist.github.com/rafaelquintanilha/564fd98d542712bb44958c18f94a7dcb",
+      "license": "Copyright Rafael Quintanilha; derived fixture redistributed with permission.",
+      "note": "Stable mechanism and exact commands from the public guide; drift-prone prices and model-quality claims are omitted."
+    }
+  }
+}

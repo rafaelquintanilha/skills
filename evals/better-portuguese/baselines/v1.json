@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "id": "baseline-v1",
+  "createdAt": "2026-07-30T20:45:06.372Z",
+  "campaign": {
+    "path": "evals/better-portuguese/baseline-campaign.json",
+    "sha256": "1d05d43419a5b9e84f20023d640132535cd09034e9e6d3a1949faa8a4db2a360"
+  },
+  "cohort": {
+    "caseFile": "evals/better-portuguese/cases.json",
+    "repeat": 5,
+    "caseIds": [
+      "landing-portfolio-hero",
+      "landing-premium-trial-how-it-works",
+      "landing-quick-search-how-to",
+      "landing-radar-section",
+      "landing-trade-analysis-faq",
+      "pr-medium-slack-update",
+      "pr-small-description",
+      "pr-small-slack-update",
+      "product-cli-key-empty-state",
+      "video-telegram-cursor",
+      "video-telegram-kimi-k3"
+    ],
+    "caseSources": {
+      "landing-portfolio-hero": [
+        {
+          "label": "Feature brief",
+          "path": "evals/better-portuguese/fixtures/portfolio-feature-brief.json",
+          "review": "reference",
+          "sha256": "77657b2bc5ccb47cbc3b2f6967c64a7dee845b76c788a8a616734d73f4aa1557"
+        }
+      ],
+      "landing-premium-trial-how-it-works": [
+        {
+          "label": "Pricing facts",
+          "path": "evals/better-portuguese/fixtures/premium-trial-facts.json",
+          "review": "reference",
+          "sha256": "f926e8726fae3a3364cf4d8639cd2544d3bf13bdb3236ef7040458d6cdf0ed05"
+        }
+      ],
+      "landing-quick-search-how-to": [
+        {
+          "label": "Feature brief",
+          "path": "evals/better-portuguese/fixtures/quick-search-feature-brief.json",
+          "review": "reference",
+          "sha256": "40ef7a6f7505a670327b5e9fec37945b8d2957939129ceec239a5f558f8a117b"
+        }
+      ],
+      "landing-radar-section": [
+        {
+          "label": "Feature brief",
+          "path": "evals/better-portuguese/fixtures/radar-feature-brief.json",
+          "review": "reference",
+          "sha256": "7925a0a511bd99560c15dd36d0c8c6296580f7dc61de04276d5bc54e272a084a"
+        }
+      ],
+      "landing-trade-analysis-faq": [
+        {
+          "label": "Feature brief",
+          "path": "evals/better-portuguese/fixtures/trade-analysis-feature-brief.json",
+          "review": "reference",
+          "sha256": "8a88183bf1936351cf696654792746e18733431a80b15b0efa90166b322d52c5"
+        }
+      ],
+      "pr-medium-slack-update": [
+        {
+          "label": "Medium Git diff",
+          "path": "evals/better-portuguese/fixtures/codex-background-side-cleanup.diff",
+          "review": "reference",
+          "sha256": "97ecc55b4a3af6eb50041786cc2ee2df6bef9a08d45247b0e5c748d5d143282b"
+        }
+      ],
+      "pr-small-description": [
+        {
+          "label": "Small Git diff",
+          "path": "evals/better-portuguese/fixtures/codex-title-only-reasoning.diff",
+          "review": "reference",
+          "sha256": "144f39af02fa727c76fc8f34fd12d605939056d493adf3707c6c75620a4a3380"
+        }
+      ],
+      "pr-small-slack-update": [
+        {
+          "label": "Small Git diff",
+          "path": "evals/better-portuguese/fixtures/codex-analytics-notifications.diff",
+          "review": "reference",
+          "sha256": "cf502312615b082969bcc2446b2cf2991b7c2d92e3e852aaba190dd02be8a4c3"
+        }
+      ],
+      "product-cli-key-empty-state": [
+        {
+          "label": "UX notes",
+          "path": "evals/better-portuguese/fixtures/cli-api-key-empty-state.json",
+          "review": "reference",
+          "sha256": "4d60673f7bc0c0d36d97d829a8b4541cc606aa1f573cbbc27f397af7b10bf3eb"
+        }
+      ],
+      "video-telegram-cursor": [
+        {
+          "label": "Published video title and description",
+          "path": "evals/better-portuguese/fixtures/cursor-video-details.json",
+          "review": "reference",
+          "sha256": "1bff2e5082b777cdaa90622b36ea098a3f337f4272da5140a84d84abd035f3cf"
+        }
+      ],
+      "video-telegram-kimi-k3": [
+        {
+          "label": "Published video title and description",
+          "path": "evals/better-portuguese/fixtures/kimi-k3-video-details.json",
+          "review": "reference",
+          "sha256": "cb8f238222c3c35bed8b72c628d5dcc9e1f4c570ec46841f4220fb324da4b4fa"
+        }
+      ]
+    }
+  },
+  "skill": {
+    "files": {
+      "skill": {
+        "path": "skills/better-portuguese/SKILL.md",
+        "sha256": "cfae585a8e057c06a0e8e5ec1577b09db7601fb7410cf279727e6135f705a3f7"
+      },
+      "editorial": {
+        "path": "skills/better-portuguese/references/editorial-standard.md",
+        "sha256": "f8631f68ecc710298ea367cdae1e65f43e3a494eab0943a674af7a6faf18b719"
+      },
+      "grammarAndStyle": {
+        "path": "skills/better-portuguese/references/grammar-and-style.md",
+        "sha256": "ffd47513b24e676f7de51922fd910e76216d962709d50cc9d341b145d4f41140"
+      },
+      "punctuation": {
+        "path": "skills/better-portuguese/references/punctuation.md",
+        "sha256": "28bb28b9303c4947844ca38db70ace87e70a9a85aa3bac6529f07bf41f8a7e26"
+      }
+    },
+    "tokens": {
+      "encoding": "o200k_base",
+      "catalogFrontmatter": {
+        "tokens": 137,
+        "characters": 712,
+        "bytes": 712
+      },
+      "files": {
+        "skill": {
+          "tokens": 1563,
+          "characters": 7895,
+          "bytes": 7897
+        },
+        "editorial": {
+          "tokens": 4906,
+          "characters": 24418,
+          "bytes": 24467
+        },
+        "grammarAndStyle": {
+          "tokens": 1244,
+          "characters": 5740,
+          "bytes": 5766
+        },
+        "punctuation": {
+          "tokens": 4197,
+          "characters": 18362,
+          "bytes": 18494
+        }
+      },
+      "loaded": {
+        "short": {
+          "tokens": 6469,
+          "characters": 32313,
+          "bytes": 32364
+        },
+        "sentence": {
+          "tokens": 11910,
+          "characters": 56415,
+          "bytes": 56624
+        }
+      }
+    }
+  },
+  "reviewer": {
+    "runtime": "codex",
+    "model": "gpt-5.6-sol",
+    "reasoning": "high",
+    "isolated": true,
+    "protocolSha256": "f05f88f8c51f93e13d3f37a1f76d89460e58c6079823ff53273d79d148c664b9",
+    "scriptSha256": "b12ad396c1a7b40f51a3540dd13d6cb37ab26897735ee60d26b6a7daaf545829"
+  },
+  "models": {
+    "sonnet-5-high": {
+      "runner": {
+        "runtime": "cursor",
+        "sdkVersion": "1.0.26",
+        "model": "claude-sonnet-5",
+        "modelParams": {
+          "context": "300k",
+          "effort": "high",
+          "thinking": "true"
+        }
+      },
+      "runnerFingerprint": "{\"runtime\":\"cursor\",\"sdkVersion\":\"1.0.26\",\"model\":\"claude-sonnet-5\",\"modelParams\":{\"context\":\"300k\",\"effort\":\"high\",\"thinking\":\"true\"}}",
+      "manifestSha256": "aff7e8d098852bd45b6ae362c1c5ee19a0c8af4bf6bbcaaf4f22a722db013974",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 30,
+          "controlPreferred": 25,
+          "ties": 0,
+          "skillPublishable": 31,
+          "controlPublishable": 36
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 4
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 3
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 2,
+            "controlPublishable": 2
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 3
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 1,
+            "controlPublishable": 4
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 0,
+            "controlPreferred": 5,
+            "ties": 0,
+            "skillPublishable": 0,
+            "controlPublishable": 5
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 5
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 4
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 2
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 4
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 0
+          }
+        }
+      }
+    },
+    "grok-4.5-high": {
+      "runner": {
+        "runtime": "cursor",
+        "sdkVersion": "1.0.26",
+        "model": "grok-4.5",
+        "modelParams": {
+          "effort": "high",
+          "fast": "false"
+        }
+      },
+      "runnerFingerprint": "{\"runtime\":\"cursor\",\"sdkVersion\":\"1.0.26\",\"model\":\"grok-4.5\",\"modelParams\":{\"effort\":\"high\",\"fast\":\"false\"}}",
+      "manifestSha256": "4ccba712cbf93c188069495a89b77a69879458d84cf642c4b1880eac62d509d8",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 40,
+          "controlPreferred": 15,
+          "ties": 0,
+          "skillPublishable": 53,
+          "controlPublishable": 48
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 4
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 4
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          }
+        }
+      }
+    },
+    "opus-5-high": {
+      "runner": {
+        "runtime": "cursor",
+        "sdkVersion": "1.0.26",
+        "model": "claude-opus-5",
+        "modelParams": {
+          "context": "300k",
+          "effort": "high",
+          "fast": "false",
+          "thinking": "true"
+        }
+      },
+      "runnerFingerprint": "{\"runtime\":\"cursor\",\"sdkVersion\":\"1.0.26\",\"model\":\"claude-opus-5\",\"modelParams\":{\"context\":\"300k\",\"effort\":\"high\",\"fast\":\"false\",\"thinking\":\"true\"}}",
+      "manifestSha256": "6d03cc91f3274c21ca5b6bed286fd634aab32956a7fd0e6e3aa3d59ed17304de",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 37,
+          "controlPreferred": 18,
+          "ties": 0,
+          "skillPublishable": 46,
+          "controlPublishable": 38
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 0
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 0,
+            "controlPreferred": 5,
+            "ties": 0,
+            "skillPublishable": 1,
+            "controlPublishable": 5
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 2,
+            "controlPublishable": 4
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 5
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 2
+          }
+        }
+      }
+    },
+    "glm-5.2-high": {
+      "runner": {
+        "runtime": "cursor",
+        "sdkVersion": "1.0.26",
+        "model": "glm-5.2",
+        "modelParams": {
+          "reasoning": "high"
+        }
+      },
+      "runnerFingerprint": "{\"runtime\":\"cursor\",\"sdkVersion\":\"1.0.26\",\"model\":\"glm-5.2\",\"modelParams\":{\"reasoning\":\"high\"}}",
+      "manifestSha256": "de3d3d484690b6fbf2304593fc8a7d95b187a9961a75443ddf9a2fe9ca26e475",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 43,
+          "controlPreferred": 12,
+          "ties": 0,
+          "skillPublishable": 44,
+          "controlPublishable": 29
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 2,
+            "controlPublishable": 2
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 1
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 2
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 4
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 4
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 3,
+            "controlPublishable": 4
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 0
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 0
+          }
+        }
+      }
+    },
+    "luna-max": {
+      "runner": {
+        "runtime": "codex",
+        "model": "gpt-5.6-luna",
+        "reasoning": "max"
+      },
+      "runnerFingerprint": "{\"runtime\":\"codex\",\"model\":\"gpt-5.6-luna\",\"reasoning\":\"max\"}",
+      "manifestSha256": "db5d790a53dfdbfd47a4ca7c65b8fdc7e61bc60556d414fc9a21d1128db63ca6",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 36,
+          "controlPreferred": 19,
+          "ties": 0,
+          "skillPublishable": 48,
+          "controlPublishable": 46
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 5
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 2,
+            "controlPublishable": 4
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 2,
+            "controlPublishable": 0
+          }
+        }
+      }
+    },
+    "terra-xhigh": {
+      "runner": {
+        "runtime": "codex",
+        "model": "gpt-5.6-terra",
+        "reasoning": "xhigh"
+      },
+      "runnerFingerprint": "{\"runtime\":\"codex\",\"model\":\"gpt-5.6-terra\",\"reasoning\":\"xhigh\"}",
+      "manifestSha256": "43b33a1b0f521ee04a2959345e56abfcf42d7d404665ae60c5f952f80f661b43",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 28,
+          "controlPreferred": 27,
+          "ties": 0,
+          "skillPublishable": 46,
+          "controlPublishable": 46
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 5
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 4
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 1,
+            "controlPublishable": 3
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 1,
+            "controlPreferred": 4,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 4
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 5
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 2
+          }
+        }
+      }
+    },
+    "sol-high": {
+      "runner": {
+        "runtime": "codex",
+        "model": "gpt-5.6-sol",
+        "reasoning": "high"
+      },
+      "runnerFingerprint": "{\"runtime\":\"codex\",\"model\":\"gpt-5.6-sol\",\"reasoning\":\"high\"}",
+      "manifestSha256": "f188e7fb7915ff0158537cdc87656c1c4a360d576459d42973902240afa9ff00",
+      "results": {
+        "overall": {
+          "samples": 55,
+          "skillPreferred": 32,
+          "controlPreferred": 23,
+          "ties": 0,
+          "skillPublishable": 54,
+          "controlPublishable": 50
+        },
+        "cases": {
+          "pr-small-description": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "pr-small-slack-update": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "pr-medium-slack-update": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "video-telegram-kimi-k3": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          },
+          "video-telegram-cursor": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-portfolio-hero": {
+            "samples": 5,
+            "skillPreferred": 2,
+            "controlPreferred": 3,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-trade-analysis-faq": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 4,
+            "controlPublishable": 5
+          },
+          "landing-quick-search-how-to": {
+            "samples": 5,
+            "skillPreferred": 4,
+            "controlPreferred": 1,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "landing-premium-trial-how-it-works": {
+            "samples": 5,
+            "skillPreferred": 5,
+            "controlPreferred": 0,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 3
+          },
+          "landing-radar-section": {
+            "samples": 5,
+            "skillPreferred": 0,
+            "controlPreferred": 5,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 5
+          },
+          "product-cli-key-empty-state": {
+            "samples": 5,
+            "skillPreferred": 3,
+            "controlPreferred": 2,
+            "ties": 0,
+            "skillPublishable": 5,
+            "controlPublishable": 4
+          }
+        }
+      }
+    }
+  }
+}

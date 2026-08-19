@@ -1,0 +1,16 @@
+{
+  "product": "QuantBrasil",
+  "feature": "Trap na Média",
+  "setup": "Trap de Compra na Média",
+  "definition": "The current candle has a low below the 8-period exponential moving average, and the next candle exceeds the current candle's high",
+  "screening_result": "Assets currently forming the setup",
+  "ordering": "Relative strength over the last 90 days",
+  "fields": {
+    "Mínima": "Low of the current candle",
+    "MME8": "8-period exponential moving average",
+    "Candle Martelo": "Whether the candle closes above its opening price",
+    "Sequência": "Number of candles without touching the moving average"
+  },
+  "cta": "Create an account to run the setup's backtest",
+  "brand_usage_evidence": ["O QuantBrasil", "no QuantBrasil", "do QuantBrasil"]
+}

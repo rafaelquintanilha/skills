@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-07-29",
+  "product": "QuantBrasil",
+  "artifact_context": "Announcement to the existing QuantBrasil email list",
+  "release": "The QuantBrasil CLI and its agent skills are in public beta",
+  "capabilities": [
+    "Consult prices and market news",
+    "Run backtests and screenings",
+    "Analyze cointegration",
+    "Inspect and follow portfolios",
+    "Use the same operations from a terminal, scripts, or AI agents"
+  ],
+  "behavior": [
+    "Commands make deterministic, documented calls to the QuantBrasil API",
+    "Responses can be returned as JSON for scripts and automations"
+  ],
+  "access": "The CLI, the agent skills, and the rest of the platform are included in QuantBrasil Premium",
+  "onboarding": [
+    "Create an API key in Settings > API keys",
+    "Run npx -y @quantbrasil/cli@beta init",
+    "Use a command in the terminal or a workflow through an agent"
+  ],
+  "call_to_action": "Open the CLI page and documentation at https://quantbrasil.com.br/cli/",
+  "tone": "This is an announcement. Show genuine but restrained excitement.",
+  "brand_usage_evidence": [
+    "O QuantBrasil",
+    "do QuantBrasil",
+    "no QuantBrasil"
+  ]
+}

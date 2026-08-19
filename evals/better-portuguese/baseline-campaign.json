@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "baseline-v1",
+  "caseFile": "evals/better-portuguese/cases.json",
+  "caseIds": [
+    "pr-small-description",
+    "pr-small-slack-update",
+    "pr-medium-slack-update",
+    "video-telegram-kimi-k3",
+    "video-telegram-cursor",
+    "landing-portfolio-hero",
+    "landing-trade-analysis-faq",
+    "landing-quick-search-how-to",
+    "landing-premium-trial-how-it-works",
+    "landing-radar-section",
+    "product-cli-key-empty-state"
+  ],
+  "repeat": 5,
+  "concurrency": 2,
+  "judge": {
+    "runtime": "codex",
+    "model": "gpt-5.6-sol",
+    "reasoning": "high"
+  },
+  "models": [
+    {
+      "id": "sonnet-5-high",
+      "runtime": "cursor",
+      "sdkVersion": "1.0.26",
+      "model": "claude-sonnet-5",
+      "modelParams": {
+        "thinking": "true",
+        "context": "300k",
+        "effort": "high"
+      }
+    },
+    {
+      "id": "grok-4.5-high",
+      "runtime": "cursor",
+      "sdkVersion": "1.0.26",
+      "model": "grok-4.5",
+      "modelParams": {
+        "effort": "high",
+        "fast": "false"
+      }
+    },
+    {
+      "id": "opus-5-high",
+      "runtime": "cursor",
+      "sdkVersion": "1.0.26",
+      "model": "claude-opus-5",
+      "modelParams": {
+        "thinking": "true",
+        "context": "300k",
+        "effort": "high",
+        "fast": "false"
+      }
+    },
+    {
+      "id": "glm-5.2-high",
+      "runtime": "cursor",
+      "sdkVersion": "1.0.26",
+      "model": "glm-5.2",
+      "modelParams": {
+        "reasoning": "high"
+      }
+    },
+    {
+      "id": "luna-max",
+      "runtime": "codex",
+      "model": "gpt-5.6-luna",
+      "reasoning": "max"
+    },
+    {
+      "id": "terra-xhigh",
+      "runtime": "codex",
+      "model": "gpt-5.6-terra",
+      "reasoning": "xhigh"
+    },
+    {
+      "id": "sol-high",
+      "runtime": "codex",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high"
+    }
+  ]
+}

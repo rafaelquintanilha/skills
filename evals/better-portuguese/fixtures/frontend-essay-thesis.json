@@ -1,0 +1,14 @@
+{
+  "retrieved": "2026-07-29",
+  "essay": "O fim do frontend?",
+  "author": "Rafael Quintanilha",
+  "central_question": "Whether increasingly capable AI means frontend development is ending",
+  "thesis": [
+    "AI can make the implementation of an existing interface substantially more efficient",
+    "Implementing a supplied design is not the whole job of frontend development",
+    "Human judgment remains necessary to decide whether an interface is intuitive, functional, pleasant, and useful",
+    "The implementation can be technically correct while the interface itself is poorly conceived",
+    "Frontend specialists should broaden their range, use AI for bounded implementation work, and cultivate product and usability judgment"
+  ],
+  "qualification": "The essay rejects both panic about the end of frontend and complacency about the effects of AI"
+}

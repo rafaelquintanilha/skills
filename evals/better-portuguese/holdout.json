@@ -1,0 +1,49 @@
+{
+  "skill": "better-portuguese",
+  "purpose": "checkpoint",
+  "dataset": "real-world-v2",
+  "cases": [
+    {
+      "id": "holdout-real-diff-release-note",
+      "task": "Write a short Brazilian Portuguese release note for developers from this diff. Use a title and one paragraph.",
+      "sources": [
+        {
+          "label": "Git diff",
+          "path": "fixtures/codex-environment-native-file-paths.diff",
+          "review": "reference"
+        }
+      ]
+    },
+    {
+      "id": "holdout-article-teaser",
+      "load": "short",
+      "task": "Write a Brazilian Portuguese title and two-sentence teaser for a newsletter linking to this article.",
+      "sources": [
+        {
+          "label": "Article excerpt",
+          "path": "fixtures/using-codex-task-inbox.md"
+        }
+      ]
+    },
+    {
+      "id": "holdout-landing-trap-faq",
+      "task": "Write three questions and answers in Brazilian Portuguese for a landing-page FAQ about Trap na Média.",
+      "sources": [
+        {
+          "label": "Feature brief",
+          "path": "fixtures/trap-feature-brief.json"
+        }
+      ]
+    },
+    {
+      "id": "holdout-product-help-from-transcript",
+      "task": "Turn this transcript excerpt into a short Brazilian Portuguese help section explaining the QuantBrasil Feed and its investment-recommendation boundary.",
+      "sources": [
+        {
+          "label": "YouTube transcript excerpt",
+          "path": "fixtures/quantbrasil-feed-transcript.txt"
+        }
+      ]
+    }
+  ]
+}

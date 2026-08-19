@@ -1,0 +1,23 @@
+{
+  "product": "QuantBrasil",
+  "feature": "Carteiras Quantitativas (beta)",
+  "audience": "Investors who want to construct and maintain portfolios using explicit quantitative rules",
+  "mechanics": [
+    "A deterministic ranking orders the available assets",
+    "The first n assets in the ranking become the portfolio",
+    "The ranking and portfolio composition change over time",
+    "Rebalancing can be weekly, monthly, quarterly, semiannual, or annual",
+    "Users can backtest a ranking and rebalancing combination",
+    "Users can inspect composition changes and each asset's return for every rebalance"
+  ],
+  "rankings_available": [
+    "Momentum, with multiple lookback periods",
+    "Magic Formula",
+    "Dividendos"
+  ],
+  "access": {
+    "premium": "All functionality",
+    "other_users": "Limited version"
+  },
+  "brand_usage_evidence": ["O QuantBrasil", "no QuantBrasil", "do QuantBrasil"]
+}

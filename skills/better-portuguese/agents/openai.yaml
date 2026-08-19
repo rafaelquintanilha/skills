@@ -1,0 +1,7 @@
+interface:
+  display_name: "Better Portuguese"
+  short_description: "Write natural Brazilian Portuguese artifacts"
+  default_prompt: "Use $better-portuguese to write this artifact in natural Brazilian Portuguese."
+
+policy:
+  allow_implicit_invocation: true

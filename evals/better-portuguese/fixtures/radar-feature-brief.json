@@ -1,0 +1,21 @@
+{
+  "product": "QuantBrasil",
+  "feature": "Radar de Backtests",
+  "problem": "Users have many strategies available and may not know where to begin or how to return to a useful previous test",
+  "purpose": "Unify the discovery and retrieval of backtests in one screen",
+  "areas": [
+    {
+      "name": "Histórico",
+      "behavior": "Lists backtests previously run by the user"
+    },
+    {
+      "name": "Favoritos",
+      "behavior": "Keeps selected backtests easy to retrieve"
+    },
+    {
+      "name": "Score de Backtest",
+      "behavior": "Assigns a score so two backtests can be compared objectively"
+    }
+  ],
+  "brand_usage_evidence": ["O QuantBrasil", "no QuantBrasil", "do QuantBrasil"]
+}

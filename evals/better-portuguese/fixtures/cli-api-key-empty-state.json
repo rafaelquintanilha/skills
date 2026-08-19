@@ -1,0 +1,17 @@
+{
+  "product": "QuantBrasil",
+  "screen": "Account settings, API keys tab",
+  "state": "The user has not created an API key",
+  "feature": "QuantBrasil CLI",
+  "capabilities": [
+    "Run quantitative operations from a terminal or an AI agent",
+    "Retrieve market data"
+  ],
+  "access": "Creating and using an API key is a Premium feature",
+  "primary_action": "Open the API-key creation form",
+  "secondary_action": "Open the CLI documentation in a new tab",
+  "interface_notes": [
+    "The page already identifies the feature as QuantBrasil CLI",
+    "Do not include a command to copy in the empty state"
+  ]
+}

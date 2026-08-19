@@ -1,0 +1,30 @@
+{
+  "product": "QuantBrasil",
+  "source": "Public homepage",
+  "official_brand_usage": {
+    "article": "masculine",
+    "observed_forms": [
+      "o QuantBrasil",
+      "do QuantBrasil",
+      "no QuantBrasil"
+    ]
+  },
+  "audience": [
+    "Investors",
+    "Traders",
+    "Developers using terminals or AI agents"
+  ],
+  "purpose": "Help users apply quantitative methods and historical market data when analyzing investments and trading strategies.",
+  "capabilities": [
+    "Strategies tested with historical backtests",
+    "Market data and quantitative analysis",
+    "Signals and alerts delivered through WhatsApp",
+    "Portfolio analysis",
+    "A CLI that exposes data, backtests, screenings, cointegration, and portfolios to terminals, scripts, and AI agents"
+  ],
+  "artifact_constraints": {
+    "format": "Elevator pitch",
+    "length": "Two or three sentences",
+    "call_to_action": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "skill": "better-portuguese",
+  "cases": [
+    {
+      "query": "Write a concise empty state in Brazilian Portuguese for a screen with no saved reports.",
+      "should_trigger": true,
+      "reason": "The user requests a PT-BR product-copy artifact."
+    },
+    {
+      "query": "Translate this technical README section into PT-BR. Preserve Agent Skills, SKILL.md, and frontmatter where they remain precise.",
+      "should_trigger": true,
+      "reason": "The user requests a technical Portuguese artifact from English source material."
+    },
+    {
+      "query": "Turn these English meeting notes into a polished Brazilian Portuguese summary without changing decisions or deadlines.",
+      "should_trigger": true,
+      "reason": "The user requests an edited PT-BR summary with fidelity constraints."
+    },
+    {
+      "query": "Polish this Portuguese subtitle, keeping it under 70 characters: Gerencie seus projetos de uma forma que é mais eficiente.",
+      "should_trigger": true,
+      "reason": "The user requests revision of a short Portuguese artifact."
+    },
+    {
+      "query": "Rewrite this paragraph so it sounds natural in Brazilian Portuguese and keeps the same degree of certainty.",
+      "should_trigger": true,
+      "reason": "The user explicitly requests native PT-BR editing."
+    },
+    {
+      "query": "Draft a transactional email in Portuguese from these facts. Do not add a greeting, deadline, or apology.",
+      "should_trigger": true,
+      "reason": "The user requests a constrained PT-BR email artifact."
+    },
+    {
+      "query": "Reescreva este texto de ajuda em português brasileiro claro, sem alterar o comportamento descrito.",
+      "should_trigger": true,
+      "reason": "The Portuguese request explicitly asks for a PT-BR help-text artifact to be edited."
+    },
+    {
+      "query": "Let's continue debugging this API in Portuguese.",
+      "should_trigger": false,
+      "reason": "Conversational language alone does not make the response a writing artifact."
+    },
+    {
+      "query": "Explain in Portuguese why this SQL query is slow.",
+      "should_trigger": false,
+      "reason": "This is an ordinary explanatory answer, not a request to author or edit an artifact."
+    },
+    {
+      "query": "Transcribe this recording verbatim in Portuguese, including false starts and repetitions.",
+      "should_trigger": false,
+      "reason": "Literal transcription must preserve speech rather than apply editorial rewriting."
+    },
+    {
+      "query": "Return the exact Portuguese quotation from the attached contract.",
+      "should_trigger": false,
+      "reason": "Verbatim extraction must not alter the quoted material."
+    },
+    {
+      "query": "Write a Python function that normalizes Unicode strings.",
+      "should_trigger": false,
+      "reason": "Code generation is outside the skill."
+    },
+    {
+      "query": "Extract the dates and invoice totals from this Portuguese table as JSON.",
+      "should_trigger": false,
+      "reason": "Data-only extraction is outside the skill."
+    },
+    {
+      "query": "Converse comigo em português enquanto investigamos este erro.",
+      "should_trigger": false,
+      "reason": "A request to converse in Portuguese is not a request to author an artifact."
+    },
+    {
+      "query": "Extraia os nomes deste texto em português e devolva apenas um array JSON.",
+      "should_trigger": false,
+      "reason": "The requested result is data-only extraction rather than Portuguese prose."
+    },
+    {
+      "query": "Revê este parágrafo em português europeu, preservando a ortografia e o uso de Portugal.",
+      "should_trigger": false,
+      "reason": "The skill is calibrated for PT-BR and must not silently normalize another Portuguese variety."
+    }
+  ]
+}

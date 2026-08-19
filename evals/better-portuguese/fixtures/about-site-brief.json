@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-07-29",
+  "person": "Rafael Quintanilha",
+  "site_goal": "Keep all of Rafael's published writing in one place",
+  "sections": [
+    {
+      "name": "Software Engineering",
+      "scope": "Technical guides, tutorials, and essays informed by building web applications since 2012 and writing technical content since 2015"
+    },
+    {
+      "name": "QuantBrasil",
+      "scope": "Quantitative analysis, data science, Python projects, and lessons from creating and operating the QuantBrasil SaaS"
+    },
+    {
+      "name": "Ensaios",
+      "scope": "Portuguese essays about books, philosophy, theology, technology, and other non-commercial interests"
+    }
+  ],
+  "current_role_at_retrieval": "Engineering Manager",
+  "recent_technical_interests": [
+    "Next.js",
+    "AI",
+    "Python",
+    "engineering management"
+  ],
+  "constraint": "The copy should describe the site and author without becoming a résumé or inventing achievements"
+}
