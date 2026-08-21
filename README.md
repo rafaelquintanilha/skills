@@ -18,11 +18,19 @@ To install a specific skill:
 npx skills@latest add rafaelquintanilha/skills --skill better-portuguese
 ```
 
+Orchestrate is built for Codex and its collaboration tools. Install it globally
+for Codex with:
+
+```sh
+npx skills@latest add rafaelquintanilha/skills --skill orchestrate --agent codex --global
+```
+
 ## Available skills
 
 | Skill | Purpose |
 | --- | --- |
 | [`better-portuguese`](skills/better-portuguese) | Write, rewrite, translate, edit, and review natural Brazilian Portuguese. |
+| [`orchestrate`](skills/orchestrate) | Coordinate substantial Codex work across Sol, Terra, and Luna sub-agents. |
 
 ## Repository structure
 
