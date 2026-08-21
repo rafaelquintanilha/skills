@@ -1,6 +1,7 @@
 ---
 name: orchestrate
 description: Coordinate sub-agents for substantial multi-step work. Use proactively when a request involves two or more separable workstreams; repository exploration plus implementation or verification; production diagnosis across logs, code, and live systems; PR or release review; multi-source analytics or research; or long-running tests, transfers, workflows, and monitors that should not block user communication. Assign bounded leaf work to Luna and collaborative or high-stakes work to Terra or Sol. Skip only trivial single-step or tightly sequential tasks.
+compatibility: Requires Codex collaboration tools; model routing assumes the listed Luna, Terra, and Sol model families are available.
 ---
 
 # Orchestrate
