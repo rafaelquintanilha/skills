@@ -30,7 +30,7 @@ npx skills@latest add rafaelquintanilha/skills --skill orchestrate --agent codex
 | Skill | Purpose |
 | --- | --- |
 | [`better-portuguese`](skills/better-portuguese) | Write, rewrite, translate, edit, and review natural Brazilian Portuguese. |
-| [`orchestrate`](skills/orchestrate) | Coordinate substantial Codex work across Sol, Terra, and Luna sub-agents. |
+| [`orchestrate`](skills/orchestrate) | Coordinate independent Codex work with clear ownership and integrated results. |
 
 ## Repository structure
 

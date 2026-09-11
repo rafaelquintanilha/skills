@@ -1,4 +1,4 @@
 interface:
   display_name: "Orchestrate"
-  short_description: "Route substantial work across specialized sub-agents"
-  default_prompt: "Use $orchestrate to split this task among the right Sol, Terra, and Luna sub-agents."
+  short_description: "Coordinate independent work across Codex subagents"
+  default_prompt: "Use $orchestrate to delegate useful independent work and integrate the results."
